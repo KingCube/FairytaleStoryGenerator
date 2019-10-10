@@ -7,7 +7,7 @@ namespace FairytaleStoryGenerator
     class Repository
     {
 
-
+        
 
     }
 }
