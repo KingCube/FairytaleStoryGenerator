@@ -22,13 +22,13 @@ namespace FairytaleStoryGenerator
 
         void Traverse(NodeStory node)
         {
-            Console.WriteLine(node.text);
+            Console.Write(node.text);
 
-            if (node.continuations.Length == 0)
+            if (node.continuations.Count == 0)
                 return;
             else
             {
-                int rndID = rnd.Next(node.continuations.Length);
+                int rndID = rnd.Next(node.continuations.Count);
                 NodeStory nextNode = repository.GetNodeByID(node.continuations[rndID]);
                 Traverse(nextNode);
             }
