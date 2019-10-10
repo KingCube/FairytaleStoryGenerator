@@ -6,7 +6,8 @@ namespace FairytaleStoryGenerator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PathManager pathManager = new PathManager();
+            pathManager.Start();
         }
     }
 }

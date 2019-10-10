@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FairytaleStoryGenerator
 {
-    class NodeStory
+    public class NodeStory
     {
         public string ID;
         public string text;
