@@ -34,6 +34,9 @@ namespace FairytaleStoryGenerator
 
             while ((dataLine = sr.ReadLine()) != null)
             {
+                if (dataLine == "")
+                    continue;
+
                 readData = dataLine.Split(";");
                 NodeStory Node = new NodeStory() { 
                                         ID = readData[0], 

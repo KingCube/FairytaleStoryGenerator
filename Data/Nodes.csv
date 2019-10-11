@@ -1,4 +1,13 @@
 ID;Text;storyGlobals;continuations
-A0;Once upon a time, a land far far away. There was a ;;A1,A2
-A1;Prince, who was a dandy.;;
-A2;Princess, whose beauty was unmatched.;;
+A0;Our story begins, like so many others, in a Kingdom far, far away, in a time long since passed. It wasnt the largest of Kingdoms, but it was a respected one, being especially famous for its renowned ;;A11,A12
+
+A11; cakes! The cakes would be shipped far and wide, and sometimes the chefs themselves would travel when nothing but newly baked would do.;KDFAMOUS:cakes,KDTHREAT:eat;A2
+A12; archers! These archers were trained since youth, and could hit an apple on top of a head without their heart skipping an extra beat. The archers travelled far and wide and won much respect for their Kingdom.;KDFAMOUS:archers,KDTHREAT:break the bows of;A2
+
+A2; \N\NStill, tradegy had beset the kingdom, as the King and Queen had passed away early, and left behind ;;A31,A32,A33
+
+A31;the young prince, who was as famous for his fencing skill as well as his interest in the kingdoms KDFAMOUS. ;MCNOUN:prince,MCADJ:fencing skill,MCADJVERB:defeat;A4
+A32;the young princess, whose wit was said to be unmatched. Often when attenting one of the many events surrounding the KDFAMOUS she would rile the audience with her wit. ;MCNOUN:princess,MCADJ:wit,MCADJVERB:outsmart;A4
+A33;no heir to rule. This didnt worry a certain young thief though, who was all too caught up in sneaking away with the latest pie, or finding a good place to sleep! He didnt even quite care for the KDFAMOUS of the Kingdom. ;MCNOUND:thief,MCADJ:agility,MCADVERB:sneak past;A4
+
+A4;Still our story comes to an end;;
