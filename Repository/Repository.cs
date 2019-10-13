@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Globalization;
 
 namespace FairytaleStoryGenerator
 {
@@ -30,7 +31,9 @@ namespace FairytaleStoryGenerator
             string[] readData;
             string[] storyGlobals;
             string[] storyGlobal;
-            string[] continuations;
+            string[] continuationPairs;
+            string[] continuationPair;
+            float continuationProb;
 
             while ((dataLine = sr.ReadLine()) != null)
             {
@@ -42,7 +45,7 @@ namespace FairytaleStoryGenerator
                                         ID = readData[0], 
                                         text = readData[1], 
                                         storyGlobals = new Dictionary<string, string>(), 
-                                        continuations = new List<string>() };
+                                        continuations = new Dictionary<string, float>()};
 
                 //keep going with more complex ones;
                 if(readData[2] != "")
@@ -56,9 +59,20 @@ namespace FairytaleStoryGenerator
                 }
                 if(readData[3] != "")
                 {
-                    continuations = readData[3].Split(",");
-                    foreach (string s in continuations)
-                        Node.continuations.Add(s);
+                    continuationPairs = readData[3].Split(",");
+
+                    foreach (string s in continuationPairs)
+                    {
+                        continuationPair = s.Split(":");
+                        /*
+                        float outf;
+                        if (float.TryParse(continuationPair[1], out outf))
+                            Node.continuations[continuationPair[0]] = outf;
+                        else
+                            Node.continuations[continuationPair[0]] = 1f;
+                        */
+                        Node.continuations[continuationPair[0]] = float.Parse(continuationPair[1], CultureInfo.InvariantCulture);
+                    }
                 }
 
                 Nodes[Node.ID] = Node;

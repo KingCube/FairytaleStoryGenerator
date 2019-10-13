@@ -46,8 +46,19 @@ namespace FairytaleStoryGenerator
             }
             else
             {
-                int rndID = rnd.Next(node.continuations.Count);
-                NodeStory nextNode = repository.GetNodeByID(node.continuations[rndID]);
+                string next = "";
+                double rndNext = rnd.NextDouble();
+                double sum = 0;
+                foreach(KeyValuePair<string,float> kvp in node.continuations)
+                {
+                    sum += kvp.Value;
+                    if (rndNext < sum)
+                    {
+                        next = kvp.Key;
+                        break;
+                    }
+                }
+                NodeStory nextNode = repository.GetNodeByID(next);
                 Traverse(nextNode);
             }
         }

@@ -9,7 +9,6 @@ namespace FairytaleStoryGenerator
         public string ID;
         public string text;
         public Dictionary<string, string> storyGlobals;
-
-        public List<string> continuations;
+        public Dictionary<string, float> continuations;
     }
 }

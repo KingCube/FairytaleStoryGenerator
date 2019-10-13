@@ -1,13 +1,28 @@
 ID;Text;storyGlobals;continuations
-A0;Our story begins, like so many others, in a Kingdom far, far away, in a time long since passed. It wasnt the largest of Kingdoms, but it was a respected one, being especially famous for its renowned ;;A11,A12
+A0;Our story begins, like so many others, in a Kingdom far, far away, in a time long since passed. It wasnt the largest of Kingdoms, but it was a respected one, being especially famous for its renowned ;;A11:0.5,A12:0.5
 
-A11; cakes! The cakes would be shipped far and wide, and sometimes the chefs themselves would travel when nothing but newly baked would do.;KDFAMOUS:cakes,KDTHREAT:eat;A2
-A12; archers! These archers were trained since youth, and could hit an apple on top of a head without their heart skipping an extra beat. The archers travelled far and wide and won much respect for their Kingdom.;KDFAMOUS:archers,KDTHREAT:break the bows of;A2
+A11; cakes! The cakes would be shipped far and wide, and sometimes the chefs themselves would travel when nothing but newly baked would do.;KDFAMOUS:cakes,KDTHREAT:eat;A2:1.0
+A12; archers! These archers were trained since youth, and could hit an apple on top of a head without their heart skipping an extra beat. The archers travelled far and wide and won much respect for their Kingdom.;KDFAMOUS:archers,KDTHREAT:break the bows of;A2:1.0
 
-A2; \N\NStill, tradegy had beset the kingdom, as the King and Queen had passed away early, and left behind ;;A31,A32,A33
+A2; \N\NStill, tradegy had beset the kingdom, as the King and Queen had passed away early, and left behind ;;A31:0.33,A32:0.33,A33:0.34
 
-A31;the young prince, who was as famous for his fencing skill as well as his interest in the kingdoms KDFAMOUS. ;MCNOUN:prince,MCADJ:fencing skill,MCADJVERB:defeat;A4
-A32;the young princess, whose wit was said to be unmatched. Often when attenting one of the many events surrounding the KDFAMOUS she would rile the audience with her wit. ;MCNOUN:princess,MCADJ:wit,MCADJVERB:outsmart;A4
-A33;no heir to rule. This didnt worry a certain young thief though, who was all too caught up in sneaking away with the latest pie, or finding a good place to sleep! He didnt even quite care for the KDFAMOUS of the Kingdom. ;MCNOUND:thief,MCADJ:agility,MCADVERB:sneak past;A4
+A31;the young prince, who was as famous for his fencing skill as well as his interest in the kingdom's KDFAMOUS. ;MCNOUN:prince,MCADJ:fencing,MCADJVERB:defeated;A4:1.0
+A32;the young princess, whose wit was said to be unmatched. Often when attenting one of the many events surrounding the KDFAMOUS she would rile the audience with her wit. ;MCNOUN:princess,MCADJ:wit,MCADJVERB:outsmarted;A4:1.0
+A33;no heir to rule. This didnt worry a certain young thief though, who was all too caught up in sneaking away with the latest pie, or finding a good place to sleep! While he could never see the KDFAMOUS of the Kingdom, he adored them none the less. ;MCNOUND:thief,MCADJ:agility,MCADVERB:snuck past;A4:1.0
 
-A4;Still our story comes to an end;;
+A4;\N\NHowever, all was not well and the Kingdom as their KDFAMOUS were threaten by a vile and scheming force who wanted to KDTHREAT all the KDFAMOUS! What was this force, and why would it have such a reprihensible goal? Why, it was;;A51:0.5;A52:0.5
+
+A51; an Evil Lord who had been spurned one too many times in the competitions over who had the best KDFAMOUS. Too much humiliation had driven him to the edge, and from his Dark Keep he commanded a force of mercenaries, which he had managed to hire with his great wealth. ;ANNOUN:Evil Lord,ANHOME:Dark Keep,ANARMY:mercenaries;A6:1.0
+A52; the Troll King himself, who had had enough of the humans with their ruckus and constant traveling through his forests. He imagined the traveling would stop if his goblins could complete the task! ;ANNOUN:Troll King,ANHOME:Heart of the Forest,ANARMY:goblins;A6:1.0
+
+A6;\N\NNow, the Kingdom was greatly outnumbered and had no army to speak of. Upon hearing this, our MCNOUN found heroism within themselves they didnt know they had, and decided they had do something, even if that probably meant going at it alone. ;;A7:1.0
+A7;\NAfter all, going alone was at least doing something. So the MCNOUN set out on a journey towards the ANHOME, and ultimately, towards the ANNOUN himself.;;B0:1.0
+
+B0;\N\NOn the way to the ANHOME, our would be hero had to pass through a smaller forest. It was here that our MCNOUN met their first challange. A rowing band of ANARMY had set up camp on their way to the Kingdom. Our hero felt they had to ;;B11:0.5,B12:0.5
+
+B11;take a long detour around them. While the MCNOUN was adept in MCADJECTIVE, it would hardly be enough against such a large band of ANARMY.;ENAPPROACH:snuck by;B111:0.5;B112:0.5
+B111; Luckily our MCNOUN managed to do just this, and was all set to continue the journey towards the ANHOME.;ENOUTCOME:success;;
+B112; Unfortunately our MCNOUN stepped on a twig, which the ANARMY heard, and sadly both the MCNOUN and the Kingdom itself fell to oblivion.;;
+
+B12;confront them, for someone had to do something, should the KDFAMOUS be saved! So the MCNOUN stepped out, and abruptly challanged the ANARMY to a battle of MCADJ.;;
+
