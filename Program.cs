@@ -8,6 +8,7 @@ namespace FairytaleStoryGenerator
         {
             PathManager pathManager = new PathManager();
             pathManager.Start();
+            Console.ReadKey();
         }
     }
 }

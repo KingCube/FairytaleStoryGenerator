@@ -33,7 +33,6 @@ namespace FairytaleStoryGenerator
             string[] storyGlobal;
             string[] continuationPairs;
             string[] continuationPair;
-            float continuationProb;
 
             while ((dataLine = sr.ReadLine()) != null)
             {
@@ -64,13 +63,6 @@ namespace FairytaleStoryGenerator
                     foreach (string s in continuationPairs)
                     {
                         continuationPair = s.Split(":");
-                        /*
-                        float outf;
-                        if (float.TryParse(continuationPair[1], out outf))
-                            Node.continuations[continuationPair[0]] = outf;
-                        else
-                            Node.continuations[continuationPair[0]] = 1f;
-                        */
                         Node.continuations[continuationPair[0]] = float.Parse(continuationPair[1], CultureInfo.InvariantCulture);
                     }
                 }
