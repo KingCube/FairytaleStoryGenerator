@@ -25,14 +25,14 @@ B111; Luckily our MCNOUN managed to do just this, and was all set to continue th
 B112; Unfortunately our MCNOUN stepped on a twig, which the ANARMY heard, and thus the MCNOUN, and ultimately the Kingdom itself fell to oblivion...\NTHE END.;;
 
 B12;confront them, for someone had to do something, should the KDFAMOUS be saved! So the MCNOUN stepped out, decided to try and pass the army using their MCADJ. ;;B121:0.9,B122:0.1;
-B121;Using all the skill they had amounted, the MCNOUN MCADJVERB the ANARMY!;ENOUTCOME:success;B2:1.0
+B121;Using all the skill they had amounted, the MCNOUN MCADVERB the ANARMY!;ENOUTCOME:success;B2:1.0
 B122;Sadly, the ANARMY were simply to many, and the MCADJ was not enough to deter all of them. Luckily the MCNOUN got out alive, but their confidence had taken a bit of a turn.;ENOUTCOME:failure;B2:1.0
 
 
 B2;\N\NTraveling on, the MCNOUN soon stumbled upon a ;;B21:0.33,B22:0.33,B23:0.34
 B21;rabbit, whom the MCNOUN was very suprised to see was talking like a human! The MCNOUN told the rabbit about the ENOUTCOME when meeting the ANARMY, and the rabbit felt the MCNOUN was to be trusted. ;ALNOUN:rabbit,ALADJ:talking,ALADVERB:shocked;B3:1.0;
 B22;glowing light in a small bush. Upon closer inspection the MCNOUN saw that it was a fairy! The fairy did say anything, but it had a small wand from which the light eminated, and it seemed to want to join the MCNOUN in their quest. ;ALNOUN:fairy,ALADJ:wand,ALADVERB:blinded ;B3:1.0;
-B23 ;older man, who was all set up in knight armour, with a large axe. The old knight explained that while they had retired a long time ago, they heard about the peril facing the Kingdom, and felt compelled to fight injustice again. ;ALNOUN:knight,ALADJ:axe,ALADVERB:slashed ;B3:1.0;
+B23;older man, who was all set up in knight armour, with a large axe. The old knight explained that while they had retired a long time ago, they heard about the peril facing the Kingdom, and felt compelled to fight injustice again. ;ALNOUN:knight,ALADJ:axe,ALADVERB:slashed ;B3:1.0;
 
 B3;\N\NThe two travelled togheter for some more days. Learning each others ways and learning of their common resolution in defeating the ANNOUN. Soon, they had reached the ANHOME.;;C1:1.0
 
