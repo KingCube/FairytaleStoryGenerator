@@ -9,14 +9,11 @@ namespace FairytaleStoryGenerator
         public Repository repository;
         Random rnd = new Random();
         Dictionary<string, string> Globals = new Dictionary<string, string>();
-        List<string> Globalslabels = new List<string>() { "KDFAMOUS","KDTHREAT","MCNOUN", "MCADJ","MCADJVERB" };
 
         public PathManager()
         {
             repository = new Repository();
             repository.ImportNodes();
-            foreach (string s in Globalslabels)
-                Globals[s] = "NOT SET";
         }
 
         public void Start()
